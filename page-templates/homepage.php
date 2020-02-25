@@ -102,7 +102,7 @@ get_header(); ?>
     </div>
 </div>
 
-<img class="mt-5" src="<?php echo get_permalink(); ?>wp-content/themes/understrap-child-master/img/video.png">
+<img class="mt-5" src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/video.png">
 <div class="container">
     <h2 class="testi_head">Testimonials</h2>
     <div class="test-slider mb-5">
@@ -153,6 +153,22 @@ get_header(); ?>
                     <p class="mr-2">Lorem Ipsum</p><span>Commercial Director at Onwebmax</span>
                 </div>
             </div>
+        </div>
+    </div>
+</div>
+
+<div class="container marginTopojni">
+    <div class="row bg-color-row">
+        <div class="col-lg-6 m-auto">
+            <div class="wraperText">
+                <p>"The structure and techniques I was using before I thought were great - but in hindsight they cost me so many missed opportunities! </p> <br>
+                <p>After the lessons learned in this course I increased new business by 245% in just two quarters against the previous financial year.</p><br>
+                <p>You need to take this course!" </p><br><br>
+                <p> Steve Regis - Great Britain Entrepreneur of the Year Finalist </p>
+            </div>
+        </div>
+        <div class="col-lg-6">
+            <img class="img-fluid" src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/steve.png">
         </div>
     </div>
 </div>

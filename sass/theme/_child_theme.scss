@@ -19,7 +19,7 @@
 }
 
 .heroImageHomepage{
-    background: url(../../../themes/understrap-child-master/img/heroimage.jpg);
+    background: url(../../../themes/salesacademy/img/heroimage.jpg);
     background-position-y: -350px;
     background-size: cover;
     background-repeat: no-repeat;
@@ -28,7 +28,7 @@
 .heroImgeLayer{
     background: #ffffff96;
 }
-
+ 
 .text-padd h1{
     font-size: 62px;
 }
@@ -216,4 +216,67 @@
 .slick-dots li.slick-active button:before {
     opacity: .75;
     color: #724747;
+} 
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+    color: rgb(123, 123, 123);
+}
+.slick-next:before {
+    opacity: .5;
+    content: '\f054' !important;
+}
+.slick-next:before, .slick-prev:before{
+    font-family: FontAwesome!important;
+    font-size: 55px!important;
+    color: #000!important;
+}
+
+.slick-initialized .slick-slide{
+    margin-bottom: 30px;
+}
+
+.marginTopojni{
+    margin-top: 120px;
+}
+
+.bg-color-row{
+    background: #f0f0f0;
+}
+
+.wraperText{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.wraperText p {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.footerLogo{
+    width: 150px;
+}
+
+#wrapper-footer{
+    margin-top: 100px;
+    border-top: 1px solid #f0f0f0;
+}
+
+.socialIcons{
+    list-style-type: none;
+    padding: 0;
+}
+
+.socialIcons li{
+    margin-left: 11px;
+    font-size: 20px;
+    display: inline;
+}
+
+.socialIcons li:first-child{
+    margin-left: 0;
+}
+
+.socialIcons a{
+    color: #000;
 }

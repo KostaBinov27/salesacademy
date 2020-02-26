@@ -11913,6 +11913,10 @@ figure.woocommerce-product-gallery__wrapper {
   background: transparent linear-gradient(90deg, #e4dc00 0, #c1bc29 100%) 0 0 no-repeat padding-box;
   border-color: transparent; }
 
+.margin_welocme {
+  margin-top: 5px;
+  margin-right: 20px; }
+
 .cta-book h2 {
   color: #e4dc00;
   font-size: 40px;

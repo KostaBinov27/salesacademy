@@ -49,10 +49,12 @@ get_header(); ?>
 <div class="container mt-5">
     <h2>
         <div class="welcome-title text-center justify-content-center d-flex">
-            <h2 class="my-auto">Welcome to</h2>
-            <p>
-                <img class="alignnone size-full wp-image-14013" src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/cropped-logo-300x113.png" alt="" width="150" height="190">
-            </p>
+            <div class="row">
+                <h2 class="margin_welocme">Welcome to</h2>
+                <p>
+                    <img class="alignnone size-full wp-image-14013" src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/cropped-logo-300x113.png" alt="" width="150" height="190">
+                </p>
+            </div>
         </div>
     </h2>
     <div class="row mt-3 underlogowelcome text-center m-auto justify-content-center">

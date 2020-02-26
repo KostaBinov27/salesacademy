@@ -46,7 +46,7 @@
 .statistics h3 {
     font-size: 70px;
     font-weight: 700;
-    color: #734747;
+    color: #e4dc00;
     margin-bottom: 0;
 }
 
@@ -62,35 +62,35 @@
 }
 
 .twoHalfImages h4{
-    border-bottom: 5px solid #734747;
+    border-bottom: 5px solid #e4dc00;
     text-align: center;
 }
 
 .twoHalfsButtons:hover{
-    background: transparent linear-gradient(90deg,#734747 0,#734747 100%) 0 0 no-repeat padding-box;
+    background: transparent linear-gradient(90deg,#e4dc00 0,#e4dc00 100%) 0 0 no-repeat padding-box;
 }
 
 .bookBTN:hover{
-    background: transparent linear-gradient(90deg,#734747 0,#734747 100%) 0 0 no-repeat padding-box;
+    background: transparent linear-gradient(90deg,#e4dc00 0,#e4dc00 100%) 0 0 no-repeat padding-box;
 }
 .bookBTN{
     margin-top: 40px;
     padding: 15px 0;
-    background: transparent linear-gradient(90deg,#734747 0,#8e8282 100%) 0 0 no-repeat padding-box;
+    background: transparent linear-gradient(90deg,#e4dc00 0,#c1bc29 100%) 0 0 no-repeat padding-box;
     border-color: transparent;
     width: 100%;
 }
 
 .twoHalfsButtons{
     width: 100%;
-    margin-top: 40px;
+    margin-top: 40px; 
     padding: 15px 0;
-    background: transparent linear-gradient(90deg,#734747 0,#8e8282 100%) 0 0 no-repeat padding-box;
+    background: transparent linear-gradient(90deg,#e4dc00 0,#c1bc29 100%) 0 0 no-repeat padding-box;
     border-color: transparent;
 }
 
 .cta-book h2 {
-    color: #734747;
+    color: #e4dc00;
     font-size: 40px;
     text-align: right;
     text-transform: uppercase;
@@ -99,7 +99,7 @@
 .green {
     border-radius: 50px;
     color: #fff;
-    background: transparent linear-gradient(90deg,#734747 0,#8e8282 100%) 0 0 no-repeat padding-box;
+    background: transparent linear-gradient(90deg,#e4dc00 0,#c1bc29 100%) 0 0 no-repeat padding-box;
 }
 .cards-columns .card .btn, .cards-columns .card .wpcf7 input[type=submit], .wpcf7 .cards-columns .card input[type=submit] {
     width: 150px;
@@ -183,7 +183,7 @@
 .testimonial-box .name p {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #734747;
+    color: #e4dc00;
 }
 
 .testimonial-box img {
@@ -205,7 +205,7 @@
 }
 
 .testi_head{
-    color: #734747;
+    color: #e4dc00;
     text-align: center;
     font-weight: 700;
     text-transform: uppercase;

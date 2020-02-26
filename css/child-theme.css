@@ -11873,7 +11873,7 @@ figure.woocommerce-product-gallery__wrapper {
 .statistics h3 {
   font-size: 70px;
   font-weight: 700;
-  color: #734747;
+  color: #e4dc00;
   margin-bottom: 0; }
 
 .statistics p {
@@ -11886,22 +11886,22 @@ figure.woocommerce-product-gallery__wrapper {
   font-weight: 300; }
 
 .twoHalfImages h4 {
-  border-bottom: 5px solid #734747;
+  border-bottom: 5px solid #e4dc00;
   text-align: center; }
 
 .twoHalfsButtons:hover {
-  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #734747), to(#734747)) 0 0 no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #734747 0, #734747 100%) 0 0 no-repeat padding-box; }
+  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#e4dc00)) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #e4dc00 0, #e4dc00 100%) 0 0 no-repeat padding-box; }
 
 .bookBTN:hover {
-  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #734747), to(#734747)) 0 0 no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #734747 0, #734747 100%) 0 0 no-repeat padding-box; }
+  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#e4dc00)) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #e4dc00 0, #e4dc00 100%) 0 0 no-repeat padding-box; }
 
 .bookBTN {
   margin-top: 40px;
   padding: 15px 0;
-  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #734747), to(#8e8282)) 0 0 no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #734747 0, #8e8282 100%) 0 0 no-repeat padding-box;
+  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#c1bc29)) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #e4dc00 0, #c1bc29 100%) 0 0 no-repeat padding-box;
   border-color: transparent;
   width: 100%; }
 
@@ -11909,12 +11909,12 @@ figure.woocommerce-product-gallery__wrapper {
   width: 100%;
   margin-top: 40px;
   padding: 15px 0;
-  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #734747), to(#8e8282)) 0 0 no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #734747 0, #8e8282 100%) 0 0 no-repeat padding-box;
+  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#c1bc29)) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #e4dc00 0, #c1bc29 100%) 0 0 no-repeat padding-box;
   border-color: transparent; }
 
 .cta-book h2 {
-  color: #734747;
+  color: #e4dc00;
   font-size: 40px;
   text-align: right;
   text-transform: uppercase; }
@@ -11922,8 +11922,8 @@ figure.woocommerce-product-gallery__wrapper {
 .green {
   border-radius: 50px;
   color: #fff;
-  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #734747), to(#8e8282)) 0 0 no-repeat padding-box;
-  background: transparent linear-gradient(90deg, #734747 0, #8e8282 100%) 0 0 no-repeat padding-box; }
+  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#c1bc29)) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #e4dc00 0, #c1bc29 100%) 0 0 no-repeat padding-box; }
 
 .cards-columns .card .btn,
 .cards-columns .card .wpcf7 input[type=submit], .wpcf7 .cards-columns .card input[type=submit], .cards-columns .card .wpcf7 input[type=submit], .wpcf7 .cards-columns .card input[type=submit] {
@@ -12003,7 +12003,7 @@ figure.woocommerce-product-gallery__wrapper {
 .testimonial-box .name p {
   font-size: 1.5rem;
   font-weight: 700;
-  color: #734747; }
+  color: #e4dc00; }
 
 .testimonial-box img {
   max-width: 180px;
@@ -12022,7 +12022,7 @@ figure.woocommerce-product-gallery__wrapper {
   margin-top: 4rem; }
 
 .testi_head {
-  color: #734747;
+  color: #e4dc00;
   text-align: center;
   font-weight: 700;
   text-transform: uppercase;

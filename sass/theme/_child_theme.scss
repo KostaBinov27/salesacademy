@@ -285,3 +285,41 @@
 .socialIcons a{
     color: #000;
 }
+
+@media (max-width: 767px){
+    .slick-next, .slick-prev{ 
+        display: none !important;
+    }
+    .testimonial-box{
+        height: 530px!important;
+        padding: 1rem!important;
+    }
+    .text-padd h1{
+        font-size: 38px;
+    }
+    .heroImageHomepage{
+        background-position: center;
+    }
+    .text-padd {
+        padding: 50px 0;
+    }
+    .navbar-toggler{
+        margin: auto;
+    }
+    .navbar-dark .navbar-toggler {
+        border-color: #111;
+    }
+    .fa-bars{
+        color: #111;
+    }
+    .statistics h3{
+        font-size: 50px;
+    }
+    .mt-mobile-size{
+        margin-top: 30px;   
+    }
+    .wraperText{
+        width: 80%;
+        margin-top: 30px;
+    }
+}

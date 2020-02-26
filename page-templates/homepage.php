@@ -71,7 +71,7 @@ get_header(); ?>
             <img src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/leftimage-scaled.jpg" class="img-fluid">
             <button type="button" class="btn btn-dark twoHalfsButtons">LEARN MORE</button>
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 mt-mobile-size">
             <h4>E-LEARNING GUIDED SALES TRAINING</h4>
             <img src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/rightiamge-scaled.jpg" class="img-fluid">
             <button type="button" class="btn btn-dark twoHalfsButtons">LEARN MORE</button>
@@ -86,7 +86,7 @@ get_header(); ?>
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-5 cta-book">
-        <div class="card green">
+        <div class="card green mt-mobile-size">
             <div class="card-body">
                 <h5 class="card-title">Register Free for Sales E-book Now</h5>
                 <form action="" method="GET">

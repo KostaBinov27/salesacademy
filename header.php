@@ -63,7 +63,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					} ?><!-- end custom logo -->
 					</div>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="<?php esc_attr_e( 'Toggle navigation', 'understrap' ); ?>">
-					<span class="navbar-toggler-icon"></span>
+					<i class="fa fa-bars" aria-hidden="true"></i>
 				</button>
 				<div class="col-lg-12">
 				<!-- The WordPress Menu goes here -->

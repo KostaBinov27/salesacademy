@@ -18,7 +18,6 @@ get_header(); ?>
         <div class="m-auto text-padd">
             <h1>THE FASTEST WAY TO LEARN SALES ONLINE GUARANTEED</h1>
             <h2>Guided Online Sales Training for Entrepreneurs</h2>
-            <p><strong>110% money back guaranteed to grow your sales</strong></p>
             <button type="button" class="btn btn-dark heroHomeBTN">LEARN MORE</button>
         </div>
     </div>
@@ -35,7 +34,7 @@ get_header(); ?>
             </div>
         </div>
         <div class="col-lg-6 m-auto">
-            <img src="http://localhost/salesacademy/wp-content/themes/salesacademy/img/rightiamge-scaled.jpg" class="img-fluid">
+            <img src="<?php echo get_site_url(); ?>/wp-content/themes/salesacademy/img/about.jpg" class="img-fluid">
         </div>
     </div>
 </div>
@@ -92,7 +91,7 @@ get_header(); ?>
             <div class="card text-left">
                 <div class="card-body">
                     <ul class="newContentLists">
-                        <li><i class="fa fa-check-square" aria-hidden="true"></i> A Fresh Approach  </li>
+                        <li><i class="fa fa-check-square" aria-hidden="true"></i>Business Owners</li>
                     </ul> 
                     <p>One of the greatest benefits of learning in this group environment is the benefit of different perspectives. Our trainers encourage discussion and bring their own experiences and advice to the table.  </p>
                 </div>

@@ -11838,6 +11838,54 @@ figure.woocommerce-product-gallery__wrapper {
 .slick-arrow.slick-hidden {
   display: none; }
 
+.entry-meta {
+  display: none; }
+
+.entry-title {
+  margin-top: 40px; }
+
+.entry-footer {
+  display: none; }
+
+.widget-title {
+  margin-top: 30px !important; }
+
+.entry-title a {
+  color: #333; }
+
+.entry-title a:hover {
+  color: #666;
+  text-decoration: none; }
+
+.widget-title:first-child {
+  margin-top: 0; }
+
+#main-menu a {
+  text-transform: uppercase; }
+
+.form-control:focus, .wpcf7 input:focus[type=text],
+.wpcf7 input:focus[type=search],
+.wpcf7 input:focus[type=url],
+.wpcf7 input:focus[type=tel],
+.wpcf7 input:focus[type=number],
+.wpcf7 input:focus[type=range],
+.wpcf7 input:focus[type=date],
+.wpcf7 input:focus[type=month],
+.wpcf7 input:focus[type=week],
+.wpcf7 input:focus[type=time],
+.wpcf7 input:focus[type=datetime],
+.wpcf7 input:focus[type=datetime-local],
+.wpcf7 input:focus[type=color],
+.wpcf7 input:focus[type=email],
+.wpcf7 input:focus[type=file],
+.wpcf7 input:focus[type=submit],
+.wpcf7 select:focus,
+.wpcf7 textarea:focus, .wpcf7 .wpcf7-validation-errors:focus {
+  outline: none !important;
+  border: 1px solid #e4dc00;
+  -webkit-box-shadow: 0 0 10px #e4dc00;
+          box-shadow: 0 0 10px #e4dc00; }
+
 .bg-primary {
   background-color: #fff !important; }
 
@@ -11852,6 +11900,24 @@ figure.woocommerce-product-gallery__wrapper {
 
 .heroImageHomepage {
   background: url(../../../themes/salesacademy/img/heroimage.jpg);
+  background-position-y: -350px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.heroImageAbout {
+  background: url(../../../themes/salesacademy/img/aboutbg.jpg);
+  background-position-y: -350px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.heroImageContact {
+  background: url(../../../themes/salesacademy/img/contactus.jpg);
+  background-position-y: -350px;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.heroImageTraining {
+  background: url(../../../themes/salesacademy/img/onlinecourse.jpg);
   background-position-y: -350px;
   background-size: cover;
   background-repeat: no-repeat; }
@@ -11906,6 +11972,7 @@ figure.woocommerce-product-gallery__wrapper {
   width: 100%; }
 
 .twoHalfsButtons {
+  color: #333;
   width: 100%;
   margin-top: 40px;
   padding: 15px 0;
@@ -11935,7 +12002,7 @@ figure.woocommerce-product-gallery__wrapper {
   height: 50px;
   background: rgba(255, 255, 255, 0.7);
   border: 0;
-  color: #fff;
+  color: #333;
   font-size: 20px;
   font-weight: 700;
   border-radius: 10px; }
@@ -12088,6 +12155,120 @@ figure.woocommerce-product-gallery__wrapper {
 .socialIcons a {
   color: #000; }
 
+.aboutHeading {
+  border-bottom: 2px solid #333; }
+
+.wrapcina {
+  background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#ffffff)) 0 0 no-repeat padding-box;
+  background: transparent linear-gradient(90deg, #e4dc00 0, #ffffff 100%) 0 0 no-repeat padding-box;
+  font-weight: 600;
+  padding: 60px;
+  margin: auto; }
+
+.newContentLists i {
+  padding-right: 10px;
+  color: #e4dc00; }
+
+.newContentLists li {
+  font-weight: 600;
+  font-size: 18px; }
+
+.about .card {
+  border-color: #e4dc00;
+  border-radius: 20px;
+  min-height: 250px; }
+
+.newContentLists {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0; }
+
+.btnAboutFirst {
+  background: #e4dc00;
+  width: 100%;
+  border: 1px solid #e4dc00;
+  color: #333;
+  font-weight: 600; }
+
+.btnAboutFirst:hover {
+  background: #c7c000;
+  border: 1px solid #e4dc00; }
+
+.btnAboutSecond {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600;
+  margin-top: 10px;
+  width: 100%; }
+
+.btnAboutSecond:hover {
+  background: #666;
+  border: 1px solid #333; }
+
+.secondSectionAbout p {
+  padding-left: 45px; }
+
+.secondSectionAbout i {
+  color: #e4dc00;
+  margin: auto 0;
+  padding-right: 20px;
+  font-size: 22px; }
+
+.contactFormBTN {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600; }
+
+.contactFormBTN:hover {
+  background: #666;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600; }
+
+.readMoreBTNBlogHome {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600; }
+
+.readMoreBTNBlogHome:hover {
+  background: #666;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600; }
+
+.green .card-title {
+  color: #333; }
+
+.card-title a {
+  text-decoration: none;
+  color: #333; }
+
+.readMoreBTNBlogHome a {
+  text-decoration: none;
+  color: #fff; }
+
+.card-title a:hover {
+  text-decoration: none;
+  color: #666; }
+
+.readMoreBTNBlogHome a:hover {
+  text-decoration: none;
+  color: #f0f0f0; }
+
+.card-online .card-body {
+  min-height: 290px; }
+
+.blog .col-lg-4 {
+  margin-top: 30px; }
+
+.onlineTraining .col-lg-6 {
+  margin-top: 30px; }
+
 @media (max-width: 767px) {
   .slick-next, .slick-prev {
     display: none !important; }
@@ -12097,7 +12278,13 @@ figure.woocommerce-product-gallery__wrapper {
   .text-padd h1 {
     font-size: 38px; }
   .heroImageHomepage {
-    background-position: center; }
+    background-position: center !important; }
+  .heroImageAbout {
+    background-position: center !important; }
+  .heroImageContact {
+    background-position: center !important; }
+  .heroImageTraining {
+    background-position: center !important; }
   .text-padd {
     padding: 50px 0; }
   .navbar-toggler {

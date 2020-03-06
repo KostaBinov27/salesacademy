@@ -28,7 +28,7 @@ $container = get_theme_mod( 'understrap_container_type' );
 					<div class="site-info">
 
 						<div class="text-center">
-							<img class="img-fluid footerLogo" src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/logo.png">
+							<img class="img-fluid footerLogo" src="<?php echo get_site_url(); ?>/wp-content/uploads/2020/02/logo.png">
 							<ul class="socialIcons">
 								<li><a href="https://www.facebook.com/ESA.entrepreneur.sales.academy/" target="_blank"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
 								<li><a href="https://www.linkedin.com/company/entrepreneur-sales-academy/" target="_blank"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>

@@ -13,6 +13,18 @@ defined( 'ABSPATH' ) || exit;
 
 get_header(); ?>
 
+<?php
+if (isset($_POST['submitFreeBook'])){
+    $to = $_POST['bookRequestEmail'];
+    $subject = 'Free Ebook';
+    $body = 'Hi '.$_POST['bookRequestName'].'<br>Here is your Free Ebook';
+    $headers = array('Content-Type: text/html; charset=UTF-8');
+    
+    wp_mail( $to, $subject, $body, $headers );
+    $mailSent = 1;
+}
+?>
+
 <div class="heroImageHomepage">
     <div class="heroImgeLayer text-center">
         <div class="m-auto text-padd">
@@ -80,24 +92,31 @@ get_header(); ?>
 </div>
 
 <div class="container mt-5">
-    <div class="row cards-columns d-flex justify-content-center align-items-center">
+    <div id="formBook" class="row cards-columns d-flex justify-content-center align-items-center">
         <div class="col-lg-5">
-            <img src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/knigata.png" class="img-fluid">
+            <img src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/knigata.png" class="img-fluid">
         </div>
         <div class="col-lg-1"></div>
         <div class="col-lg-5 cta-book">
         <div class="card green mt-mobile-size">
             <div class="card-body">
-                <h5 class="card-title">Register Free for Sales E-book Now</h5>
-                <form action="" method="GET">
+                <h5 class="card-title">Register And Get Our FREE Sales PlayBook</h5>
+                <form action="#formBook" method="POST">
                     <div class="form-group">
-                    <input type="text" class="form-control" name="Agent_Name" id="Agent_Name" aria-describedby="helpId" placeholder="Name">
+                        <input type="text" class="form-control" name="bookRequestName" id="Agent_Name" aria-describedby="helpId" placeholder="Name">
                     </div>
                     <div class="form-group">
-                    <input type="email" class="form-control" name="Agent_Email" id="Agent_Email" aria-describedby="emailHelpId" placeholder="Email">
+                        <input type="email" class="form-control" name="bookRequestEmail" id="Agent_Email" aria-describedby="emailHelpId" placeholder="Email">
                     </div>
-                    <button type="submit" class="btn btn-primary btn-join">GO</button>
+                    <button type="submit" name="submitFreeBook" class="btn btn-primary btn-join">GO</button>
                 </form>
+                <?php 
+                if ($mailSent == 1){ ?>
+                    <div class="alert alert-success mt-5 text-center" role="alert">
+                        Email Successfully sent. Please check your inbox or spam folder.
+                    </div>
+                <?php   
+                } ?>
                 </div>
             </div>
         </div>
@@ -110,49 +129,49 @@ get_header(); ?>
     <div class="test-slider mb-5">
         <div>
             <div class="testimonial-box">
-                <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="testimonials-img" alt="">
-                <p class="testimonial-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/beatriz.png" class="testimonials-img" alt="">
+                <p class="testimonial-desc mb-3">Wonderful course. Suitable for salespeople at all levels. Freshers and intermediate would benefit immensely and experienced can examine how well they are aligned with the sales methodology shared in this course. Adapting it would make a significant difference to your sales.</p>
                 <div class="name text-center">
-                    <p class="mr-2">Lorem Ipsum</p><span>CEO at Lorem</span>
+                    <p class="mr-2"> Beatriz Smyth </p><span> Sales Executive at Salezo</span>
                 </div>
             </div>
         </div>
         <div>
             <div class="testimonial-box">
 
-                <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="testimonials-img" alt="">
-                <p class="testimonial-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/owen.png" class="testimonials-img" alt="">
+                <p class="testimonial-desc mb-3">I am the first-ever sales-person in my company. This course was very much in line with the training I have already received, but there are gold nuggets of new information I have not heard before as well. I highly recommend this course to anyone new to sales, folks needing a refresher, or just anyone wanting a different perspective on selling.</p>
                 <div class="name text-center">
-                    <p class="mr-2">Lorem Ipsum</p><span>European Sales Executive</span>
+                    <p class="mr-2">Charles Owen</p><span>Sales Agent at Sale Hounds</span>
                 </div>
             </div>
         </div>
         <div>
             <div class="testimonial-box">
 
-                <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="testimonials-img" alt="">
-                <p class="testimonial-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/shah.png" class="testimonials-img" alt="">
+                <p class="testimonial-desc mb-3">As a non-sales person that needs to "sell" a service, I found this training informative, practical and useful. It does not only explain the "how-to" steps of the sales process but the "why" it's important. I like the approach and delivery which was low-key and engaging. I highly recommend it!</p>
                 <div class="name text-center">
-                    <p class="mr-2">Lorem Ipsum</p><span>Recruitment Manager at Iposum</span>
+                    <p class="mr-2">Ali Shah</p><span>Computer Programmer at Code Agent</span>
                 </div>
             </div>
         </div>
         <div>
             <div class="testimonial-box">
 
-                <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="testimonials-img" alt="">
-                <p class="testimonial-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/rojas.png" class="testimonials-img" alt="">
+                <p class="testimonial-desc mb-3">Absolutely wonderful. This course is hitting on all the important sales topics. As a seasoned sales veteran, I enjoyed the reinforcement of some basic tenets of sales as well as the introduction of some unique sales approaches. Thank you!</p>
                 <div class="name text-center">
-                    <p class="mr-2">Lorem Ipsum</p><span>Global Export Manager at Future</span>
+                    <p class="mr-2">Gabriel Rojas</p><span>Insurance Agent at Key Insurance</span>
                 </div>
             </div>
         </div>
         <div>
             <div class="testimonial-box">
-                <img src="https://cdn0.iconfinder.com/data/icons/avatar-78/128/12-512.png" class="testimonials-img" alt="">
-                <p class="testimonial-desc mb-3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                <img src="<?php echo get_permalink(); ?>wp-content/themes/salesacademy/img/thomas.png" class="testimonials-img" alt="">
+                <p class="testimonial-desc mb-3">I've been selling for 25 years and this course expertly proves that you can always learn something new and certainly in my case, relearn skills you thought you already had, but had taken for granted and maybe lost along the way. Well worth the time and money invested! Bravo.</p>
                 <div class="name text-center">
-                    <p class="mr-2">Lorem Ipsum</p><span>Commercial Director at Onwebmax</span>
+                    <p class="mr-2">Declan Thomas </p><span>Sales Executive at Global Sales</span>
                 </div>
             </div>
         </div>
@@ -172,6 +191,40 @@ get_header(); ?>
         <div class="col-lg-6">
             <img class="img-fluid" src="<?php echo get_permalink(); ?>wp-content/uploads/2020/02/steve.png">
         </div>
+    </div>
+</div>
+
+<div class="container blog">
+    <h2 class="testi_head">Blog</h2>
+    <div class="row">
+        <?php 
+        $args = array(
+            'posts_per_page'   => 3,
+            'post_type'        => 'post',
+            'cat'              => 4
+        );
+        $the_query = new WP_Query( $args );
+
+        if ( $the_query->have_posts() ) {
+            while ( $the_query->have_posts() ) {
+                $the_query->the_post(); ?>
+                <div class="col-lg-4">
+                    <div class="card">
+                        <?php echo get_the_post_thumbnail($the_query->ID,'blog-posts'); ?>
+                        <div class="card-body">
+                            <h5 class="card-title"><a href="<?php echo get_the_permalink(); ?>"><?php echo the_title(); ?></a></h5>
+                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                            <div class=" btnWraper">
+                                <button class="btn btn-primary readMoreBTNBlogHome"><a href="<?php echo get_the_permalink(); ?>">Read More</a></button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <?php 
+            }
+        }
+        /* Restore original Post Data */
+        wp_reset_postdata(); ?>
     </div>
 </div>
 

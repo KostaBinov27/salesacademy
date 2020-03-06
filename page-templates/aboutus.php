@@ -91,7 +91,7 @@ get_header(); ?>
             <div class="card text-left">
                 <div class="card-body">
                     <ul class="newContentLists">
-                        <li><i class="fa fa-check-square" aria-hidden="true"></i>Business Owners</li>
+                        <li><i class="fa fa-check-square" aria-hidden="true"></i> A Fresh Approach  </li>
                     </ul> 
                     <p>One of the greatest benefits of learning in this group environment is the benefit of different perspectives. Our trainers encourage discussion and bring their own experiences and advice to the table.  </p>
                 </div>
@@ -109,7 +109,7 @@ get_header(); ?>
         <h2 class="aboutHeading">Who Can Attend This Sales Training Course?</h2>
     </div>
     <div class="col-lg-12 mt-5">
-        <span class="d-flex"><i class="fa fa-check-square" aria-hidden="true"></i> <h4>A Fresh Approach</h4> </span>
+        <span class="d-flex"><i class="fa fa-check-square" aria-hidden="true"></i> <h4>Business Owners</h4> </span>
         <p>This course teaches the fundamentals of the sales process. Becoming familiar with this process is crucial for all business owners. </p>
     </div>
     <div class="col-lg-12">

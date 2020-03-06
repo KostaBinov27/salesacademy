@@ -30,7 +30,6 @@ if (isset($_POST['submitFreeBook'])){
         <div class="m-auto text-padd">
             <h1>THE FASTEST WAY TO LEARN SALES ONLINE GUARANTEED</h1>
             <h2>Guided Online Sales Training for Entrepreneurs</h2>
-            <p><strong>110% money back guaranteed to grow your sales</strong></p>
             <button type="button" class="btn btn-dark heroHomeBTN">LEARN MORE</button>
         </div>
     </div>

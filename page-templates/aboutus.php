@@ -98,8 +98,8 @@ get_header(); ?>
             </div>
         </div>
         <div class="col-lg-4 m-auto">
-            <button type="button" class="btn btn-primary btnAboutFirst"><a href="/contact-us/">Ask A Question</a></button>
-            <button type="button" class="btn btn-primary btnAboutSecond"><a href="/online-training/">Learn More</a></button>
+            <a class="buttonsAbout" href="/contact-us/"><button type="button" class="btn btn-primary btnAboutFirst">Ask A Question</button></a>
+            <a class="buttonsAbout" href="/online-training/"><button type="button" class="btn btn-primary btnAboutSecond">Learn More</button></a>
         </div>
     </div>
 </div>

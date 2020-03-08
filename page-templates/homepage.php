@@ -212,10 +212,9 @@ if (isset($_POST['submitFreeBook'])){
                         <?php echo get_the_post_thumbnail($the_query->ID,'blog-posts'); ?>
                         <div class="card-body">
                             <h5 class="card-title"><a href="<?php echo get_the_permalink(); ?>"><?php echo the_title(); ?></a></h5>
-                            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                            <div class=" btnWraper">
-                                <button class="btn btn-primary readMoreBTNBlogHome"><a href="<?php echo get_the_permalink(); ?>">Read More</a></button>
-                            </div>
+                            <p class="card-text">
+                                <?php echo get_the_excerpt(); ?>
+                            </p>
                         </div>
                     </div>
                 </div>

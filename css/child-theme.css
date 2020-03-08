@@ -11953,7 +11953,8 @@ figure.woocommerce-product-gallery__wrapper {
 
 .twoHalfImages h4 {
   border-bottom: 5px solid #e4dc00;
-  text-align: center; }
+  text-align: center;
+  font-size: 19px; }
 
 .twoHalfsButtons:hover {
   background: transparent -webkit-gradient(linear, left top, right top, color-stop(0, #e4dc00), to(#e4dc00)) 0 0 no-repeat padding-box;
@@ -12245,6 +12246,18 @@ figure.woocommerce-product-gallery__wrapper {
   color: #fff;
   font-weight: 600; }
 
+.btn-secondary {
+  background: #333;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600; }
+
+.btn-secondary:hover {
+  background: #666;
+  border: 1px solid #333;
+  color: #fff;
+  font-weight: 600; }
+
 .green .card-title {
   color: #333; }
 
@@ -12272,6 +12285,13 @@ figure.woocommerce-product-gallery__wrapper {
 
 .onlineTraining .col-lg-6 {
   margin-top: 30px; }
+
+.imageLandingBg {
+  background: url(../../../themes/salesacademy/img/contact_landing_bg.jpg);
+  height: 100%;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat; }
 
 @media (max-width: 767px) {
   .slick-next, .slick-prev {

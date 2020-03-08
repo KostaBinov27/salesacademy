@@ -43,9 +43,7 @@ get_header(); ?>
                         <div class="card-body">
                             <h5 class="card-title"><a href="<?php echo get_the_permalink(); ?>"><?php echo the_title(); ?></a></h5>
                             <p class="card-text">
-                                <?php
-                                    echo get_the_excerpt() ;
-                                ?>
+                                <?php echo get_the_excerpt(); ?>
                             </p>
                             <!-- <div class=" btnWraper">
                                 <button class="btn btn-primary readMoreBTNBlogHome"><a href="<?php echo get_the_permalink(); ?>">Read More</a></button>
